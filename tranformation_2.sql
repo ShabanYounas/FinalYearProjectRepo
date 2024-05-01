@@ -113,5 +113,14 @@ COMMIT;
 --
 */
 --select symbol, lastdate from facts.dates_of_stock_info order by symbol ASC
-
+Tables in the database:
+f_daily_facts
+ticker_and_name
+f_dates_of_stock_info
+s_date
+d_dated
+s_customer
+s_historical_stock_data
+di_financial_info
+d_customer
 
